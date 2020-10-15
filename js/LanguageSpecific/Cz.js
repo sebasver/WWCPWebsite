@@ -5,13 +5,13 @@ function init() {
 
     mynavbar.innerHTML = mynavbar.innerHTML +
         '<ul>' +
-        '<li class="one"><a href="../en/underconstruction.html">Home</a></li>\n' +
-        '<li class="two"><a href="../en/underconstruction.html">Letöltések</a></li>\n' +
-        '<li class="three"><a href="../en/underconstruction.html">A mi történelmünk</a></li>\n' +
-        '<li class="four"><a href="../en/underconstruction.html">Pillanatképek</a></li>\n' +
-        '<li class="five"><a href="../en/underconstruction.html">Mozdonylista</a></li>\n' +
-        '<li class="six"><a href="../en/underconstruction.html">Utaskocsik listája</a></li>\n' +
-        '<li class="seven"><a href="../en/underconstruction.html">Tehergépkocsi-lista</a></li>\n' +
+        '<li class="one"><a href="../cz/homeCZ.html">Domů</a></li>\n' +
+        '<li class="two"><a href="../en/underconstruction.html">Ke Stažení</a></li>\n' +
+        '<li class="three"><a href="../en/underconstruction.html">Historie</a></li>\n' +
+        '<li class="four"><a href="../en/underconstruction.html">Obrázky</a></li>\n' +
+        '<li class="five"><a href="../en/underconstruction.html">Seznam Lokomotiv</a></li>\n' +
+        '<li class="six"><a href="../en/underconstruction.html">Seznam Osobních Vagónů</a></li>\n' +
+        '<li class="seven"><a href="../en/underconstruction.html">Seznam Nákladních Vagónů</a></li>\n' +
         '</ul>\n' +
         '<style>\n' +
         '.one {background-color: #650166;}\n' +

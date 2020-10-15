@@ -8,7 +8,7 @@ function init() {
         '<a class="l2" href="../de/LDlistDe.html">Deutsch</a>' +
         '<a class="l3" href="../en/LDlistEn.html">English</a>' +
         '<a class="l4" href="../fr/LDlistFr.html">Français</a>' +
-        '<a class="l5" href="../ce/LDlistHu.html">Magyar</a>' +
+        '<a class="l5" href="../cz/LDlistHu.html">Čeština</a>' +
         '<a class="l6" href="../nl/LDlistNl.html">Nederlands</a>' +
         '<a class="l7" href="../pl/LDlistPl.html">Polski</a>');
 

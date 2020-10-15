@@ -8,7 +8,7 @@ function init() {
         '<a class="l2" href="../en/underconstruction.html">Deutsch</a>' +
         '<a class="l3" href="../en/LlistEn.html">English</a>' +
         '<a class="l4" href="../en/underconstruction.html">Français</a>' +
-        '<a class="l5" href="../en/underconstruction.html">Magyar</a>' +
+        '<a class="l5" href="../en/underconstruction.html">Čeština</a>' +
         '<a class="l6" href="../en/underconstruction.html">Nederlands</a>' +
         '<a class="l7" href="../en/underconstruction.html">Polski</a>');
 
