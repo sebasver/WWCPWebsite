@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+html {
+    /*background-color: #670067;*/
+    background-color: #2F3136;
+    font-size: 1.25em;
+    color: #D3CFCD;
+    /*F9FFDB*/
+    /*#EAF0CE*/
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template: "header header header" "menu main languages" "filler main discord" "footer footer footer";
+    grid-template-columns: 1.5fr 10fr 1.5fr;
+    grid-template-rows: auto max-content auto auto;
+    margin: 0;
+}
+
+
+main {
+    grid-area: main;
+    padding: 0 30px 30px 30px;
+}
+
+main.history h2, main.history p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+main.history article section{
+    text-align: center;
+}
+main.history article section figure{
+    display:inline;
+    padding:25px 5px 25px 5px;
+    margin: auto auto;
+}
+
+main.history article section figure img.squarepicture{
+    height: 250px;
+    width: 250px;
+}
+
+main.history article section figure img.bannerpicture{
+    padding-bottom:25px ;
+    height: auto;
+    max-width: 750px;
+    width: 100%;
+}
+
+div.filler {
+    grid-area: filler;
+}
+
+div.languages {
+    grid-area: languages;
+}
+
+main section.one {
+    padding-left: 3.25%;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+.banner {
+    font-family: "Audiowide", serif;
+    grid-area: header;
+    text-align: center;
+    align-self: center;
+    border-radius: 50px 50px;
+    background-image: linear-gradient(#670067, #1A2666);
+    margin: 10px;
+}
+
+.history article, section.prof, section.com{
+    border-radius: 25px 25px;
+    padding: 25px;
+    background-color: #393b40;
+    margin: 15px;
+}
+
+
+
+
+.banner p {
+    font-size: 5em;
+    padding: 0;
+    margin: 50px 0 50px 0;
+    color: #9E9898;
+}
+
+.banner .top {
+    margin-top: 25px;
+}
+
+.banner .bottom {
+    margin-bottom: 25px;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0;
+}
+
+.menu ul {
+    grid-area: menu;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #9E9898;
+    font-family: "Audiowide", serif;
+    padding: 15px;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    /*font-weight: bold;*/
+    font-size: 1em;
+}
+
+.menu li {
+    border-radius: 10px 10px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center
+}
+
+.themepic {
+    align-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+.themepic img {
+    max-width: 1000px;
+    width: 100%;
+    height: auto;
+}
+
+.hiddenTitle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
+
+.news .article {
+    max-width: 1500px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template: "title time" "paragraph paragraph";
+    border-radius: 10px 10px;
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #393b40;
+
+}
+
+.news .article p {
+    grid-area: paragraph;
+}
+
+.news .article p a {
+    color: #EAF0CE;
+}
+
+.news .article h3 {
+    font-family: "Audiowide", serif;
+    font-weight: normal;
+    grid-area: title;
+    margin: 0;
+}
+
+.news a.more {
+    color: #EAF0CE;
+    float: right;
+    display: block;
+}
+
+.news .article time {
+    text-align: right;
+    grid-area: time;
+    margin: 0;
+}
+
+.discord {
+    grid-area: discord;
+}
+
+.AboutUS article {
+    background-color: #393b40;
+    border-radius: 10px 10px;
+    max-width: 1500px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.AboutUS section.list section h4 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.AboutUS section.list section figure img {
+    max-width: 150px;
+    height: 150px;
+}
+
+.AboutUS section.list section figure {
+    height: 200px;
+    margin: 10px 20px 10px 20px;
+}
+
+.AboutUS section.projectleader figure {
+    text-align: center;
+    display: block;
+}
+
+.AboutUS section.leadArtist figure {
+    text-align: center;
+    display: block;
+}
+
+.AboutUS section.artists {
+    text-align: center;
+    border-bottom-width: 5px;
+}
+
+.AboutUS section.artists figure {
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+}
+
+.AboutUS section.contributors {
+    text-align: center;
+}
+
+.AboutUS section.contributors figure {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.AboutUS section.patrons {
+    text-align: center;
+}
+
+.AboutUS section.patrons figure {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.AboutUS section.translators {
+    text-align: center;
+}
+
+.AboutUS section.translators figure {
+    text-align: center;
+    align-content: center;
+    display: inline-block;
+}
+
+.dropbtn {
+    margin-top: 20px;
+    background-color: #393b40;
+    color: #EAF0CE;
+    padding: 15px;
+    font-family: Audiowide, serif;
+    font-size: 1.25em;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #4b4d52;
+    transition-duration: 600ms;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    margin-right: 35px;
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    font-family: "Audiowide", serif;
+    color: #9E9898;
+    padding: 10px 5px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.one {background-color: #610366;}
+.two {background-color: #590767;}
+.three {background-color: #500B66;}
+.four {background-color: #480F65;}
+.five {background-color: #3F1365;}
+.six {background-color: #371866;}
+.seven {background-color: #2E1C65;}
+.eight {background-color: #242165 ;}
+
+.contentCalculator {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.EUContent{
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 12px;
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+}
+
+.UKContent{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.NAContent{
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    width: 100%;
+    max-width: 350px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 12px;
+}
+div.divbutton{
+    text-align: center;
+    justify-content: center;
+}
+
+input.inputfields{
+    width: 175px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button.EUContent{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    color: #EAF0CE;
+    font-size: 0.9em;
+    width: 175px;
+    align-self: center;
+    margin: auto;
+}
+
+button.UKContent{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    color: #EAF0CE;
+    font-size: 0.9em;
+    width: 175px;
+    align-self: center;
+    margin: auto;
+}
+
+button.NAContent{
+    padding: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    color: #EAF0CE;
+    font-size: 0.9em;
+    width: 175px;
+    align-self: center;
+    margin: auto;
+}
+
+ul.ContentListing{
+    list-style: none;
+    padding-left: 0;
+}
+
+ul.ContentListing p {
+    padding-left: 2.5%;
+    margin: 5px;
+}
+
+.ContentListing li::before{
+    content: "- ";
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        display: grid;
+        grid-template: "header header" "menu languages" "main main" "filler filler" "discord discord" "footer footer";
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 50% 50%;
+        margin: 0;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    div.languages {
+        margin: 0;
+    }
+
+    nav.menu {
+        margin: 0;
+    }
+
+    .AboutUS section.list section figure img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .AboutUS section.list section figure figcaption {
+        font-size: 0.75em;
+    }
+
+    .AboutUS section.list section figure {
+        height: 125px;
+        padding: 0 0 5px 0;
+        margin: 5px;
+        width: 125px;
+    }
+
+    .AboutUS section.list section.leadArtist figure {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .AboutUS section.list section.projectleader figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .AboutUS article {
+        border-radius: 10px 10px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        padding: 10px;
+
+    }
+
+    .banner p {
+        font-size: 2em;
+    }
+
+    .discord {
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropbtn {
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 0.75em;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        overflow: auto;
+        align-content: center;
+        margin: 0;
+    }
+
+    .dropdown-content a {
+        font-size: 0.9em;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #9E9898;
+        padding: 15px;
+        display: block;
+        align-content: center;
+        text-align: center;
+        margin: 10px;
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (max-width: 850px)  {
+    body {
+        zoom: 0.8;
+    }
+
+}

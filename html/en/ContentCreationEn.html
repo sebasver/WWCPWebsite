@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Content Creation Guidelines</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <script src="../../js/dropdown.js"></script>
+    <script src="../../js/languageMenu/history.js"></script>
+    <script src="../../js/LanguageSpecific/En.js"></script>
+    <script src="../../js/Calculators.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="../../media/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../media/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="../../media/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../media/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="../../media/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="../images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+<h1 class="hiddenTitle">Content Creation Guidelines</h1>
+<header class="banner">
+    <p>World Wide Content Pack</p>
+</header>
+<nav class="menu" id="menu">
+    <h2 class="hiddenTitle">Navigation</h2>
+</nav>
+<main>
+    <section>
+        <h2>Content creation guidelines</h2>
+        <p>In this webpage we will go over everything you need step by step to create content for WWCP
+            We will cover the following big sections</p>
+        <ol>
+            <li>Determining the size</li>
+            <li>General Requirements</li>
+            <li>Not allowed details</li>
+            <li>Texture Requirements</li>
+        </ol>
+        </p>
+        <h3>1. Determining the size</h3>
+        <p>In content creation, the first big step is, of course, determining the size of the rolling stock piece you
+            <br>
+            are designing. As you all know WWCP uses different scaling methods for the following big regions:
+        </p>
+        <ul>
+            <li>European</li>
+            <li>North America</li>
+            <li>UK</li>
+        </ul>
+        <p>
+            Under this, you will find the various requirements regarding size and the calculators you should use. But
+            before
+            we go to that I just want you to know the general width used in the different regions.</p>
+        <ul>
+            <li>European: 22mb wide body. 24mb with exterior details</li>
+            <li>North America: 22mb wide body. 24mb with exterior details</li>
+            <li>UK: 20-22mb wide body. 22-24 with exterior details</li>
+        </ul>
+        <ul class="ContentListing">
+            <li>European Content: <br>
+                <p>For EU content the general rule of thumb is using the standardized European buffer height which is
+                    set in
+                    SMP/FMT at Y = 1 for the following piece and then scaling your technical diagram in accordance.
+                    Nonetheless, we advise you to use the calculator below to double-check height and length.
+                    The standardized European buffer is a default requirement to be placed on your model. Exceptions can
+                    be requested for heavily differentiating stock.</p>
+            </li>
+            <br>
+            <li>UK Content: <br>
+                <p>
+                    For UK content the standardized UK buffer height which is set in SMP/FMT at Y = 0.5 can be used for
+                    scaling your
+                    technical diagram in accordance. Nonetheless, we advise you to use the calculator below to
+                    double-check height and length.
+                    The standardized UK buffer is a default requirement to be placed on your model. Exceptions can be
+                    requested for heavily differentiating stock.</p>
+            </li>
+            <br>
+            <li>North American Content: <br>
+                <p>
+                    For American content, the general rule of thumb is using the standardized American knuckler height
+                    which is set
+                    in SMP/FMT at Y = 3.5 for the following piece and then scaling your technical diagram in accordance.
+                    Nonetheless,
+                    we advise you to use the calculator below to double-check height and length.
+                    The standardized knuckle is a default requirement to be placed on your model. Exceptions can be
+                    requested for heavily differentiating stock.
+                </p>
+            </li>
+        </ul>
+    </section>
+    <section class="contentCalculator">
+        <section class="EUContent">
+            <form>
+                <h3 class="EUContent">EU Calculator</h3>
+                <label class="EUContent" for="Calculator1Height">Height in mm:</label>
+                <input class="EUContent inputfields" type="text" id="Calculator1Height">
+                <label class="EUContent" for="Calculator1Length">Length in mm:</label>
+                <input class="EUContent inputfields" type="text" id="Calculator1Length">
+                <div class="divbutton">
+                    <button class="EUContent" id="Calculator1">Calculate</button>
+                </div>
+                <span class="EUContent" id="SpanReturnCalculator1"></span>
+            </form>
+
+        </section>
+        <section class="NAContent">
+            <form>
+                <h3 class="NAContent">NA Calculator</h3>
+                <label class="NAContent" for="Calculator3Height">Height in mm:</label>
+                <input class="NAContent inputfields" type="text" id="Calculator2Height">
+                <label class="NAContent" for="Calculator2Length">Length in mm:</label>
+                <input class="NAContent inputfields" type="text" id="Calculator2Length">
+                <div class="divbutton">
+                    <button class="NAContent" id="Calculator2">Calculate</button>
+                </div>
+                <span class="NAContent" id="SpanReturnCalculator2"></span>
+            </form>
+
+        </section>
+        <section class="UKContent">
+            <form>
+                <h3 class="UKContent">UK Calculator</h3>
+                <label class="UKContent" for="Calculator3Height">Height in mm:</label>
+                <input class="UKContent inputfields" type="text" id="Calculator3Height">
+                <label class="UKContent" for="Calculator1Length">Length in mm:</label>
+                <input class="UKContent inputfields" type="text" id="Calculator3Length">
+                <div class="divbutton">
+                    <button class="UKContent" id="Calculator3">Calculate</button>
+                </div>
+                <span class="UKContent" id="SpanReturnCalculator3"></span>
+            </form>
+
+        </section>
+    </section>
+    <section>
+        <h3>2. Actual Requirements</h3>
+        <p>
+            In this section, we will be talking about general requirements for the big outlines on content and on minima
+            and maximum detail requirements. We will also shine a light on any texture requirements.</p>
+        <h4>General Requirements</h4>
+        <ul>
+            <li>You must follow the Length and Height Calculators provided above.</li>
+            <li>The wheels should be placed 12mb’s apart of each other.</li>
+            <li>In SMP/FMT the arrow direction marks the front of the Locomotive/Wagon</li>
+            <li>The floor in SMP/FMT should be interpreted as the top of the track level</li>
+            <li>Roofs may not consist of more than 9 pieces.</li>
+            <li>Circles must be done using an Octagonal shape></li>
+            <li>We do not accept any “Shape’s” only Shapeboxes or regular boxes.</li>
+            <li>Doors must be separate geometry and custom-named for example “front door left”.</li>
+            <li>Lamps, lamp sockets, headlights, ditch lights, etc must be separate geometry and custom-named for
+                example “Front Lamp”
+            </li>
+            <li>Windows should generally be textured on. We do make a case per case exception if the windows have to be
+                placed on HEAVILY curved, sloped or Streamlined window designs. If a real-life model has a literal hole
+                in its frame you are required to model the hole of course.
+            </li>
+            <li>Fluting on sides is allowed to be small geometry strips of minimum 0.1 wide. Fluting on roofs should be
+                textured on.
+            </li>
+            <li>Numberboards must be a separate piece of geometry</li>
+            <li>Railings should always be square. For example, if it is 0.25 wide it should be 0.25 high. Exceptions can
+                be requested if the real-life equivalent has odd proportions on its railings.
+            </li>
+            <li>Try to do as much as you can with texture and use as little geometry as possible while still following
+                the below mentioned extra requirements.
+            </li>
+            <li>Wheels should have their rotation points on the axle.</li>
+            <li>All parts must be in the “Core” group of SMP. (not applicable for FMT models)</li>
+            <li>If your model will include a 20ft, 40ft container or any other type of container you need to use the one
+                provided by WWCP.
+            </li>
+            <li>The top of a pantograph should be at a maximum of 40mb’s higher than the bottom of the wheels.</li>
+            <li>Bogie’s need to be a separate model</li>
+            <li>If a freight car has a load this must be modelled.</li>
+        </ul>
+        <h4>Minimum Detail Requirements</h4>
+        <ul>
+            <li>The model must represent the real-life version as accurate as possible following the guidelines.</li>
+            <li>A bare minimum locomotive drive stand has to be included.</li>
+            <li>Basic seating must at least be provided where necessary.</li>
+            <li>Big boxes on the undercarriage if the real-life variant has this too.</li>
+            <li>Bogie attachment points.</li>
+            <li>Ladders/railings in corresponding places.</li>
+            <li>Valve gears/rods if applicable</li>
+            <li>walkways on passenger cars if applicable</li>
+        </ul>
+        <h4>Maximum allowed detail Level</h4>
+        <ul>
+            <li>The undercarriage must be flat with the only exception being highly visible equipment that is mounted
+                under the frame and bogie attachment points.
+            </li>
+            <li>Horns, Vents, bells, Electrical wires on top of the locomotive are all allowed to be geometry.</li>
+            <li>Text signs are allowed to be up to 4 times the normal texture resolution. Achieve this with rescaling
+                shape boxes. (Exceptions can be requested)
+            </li>
+            <li>Logo signs are allowed to be made using rescaled shape boxes. The logo on the texture net may not take
+                up more than 160px’s
+            </li>
+            <li>Trains are allowed to have a walkway if applicable.</li>
+            <li>A basic cab design with a maximum of 20 gauges, meters, levers, valves or screens.</li>
+        </ul>
+        <h4>Special Requirements for Streamlining:</h4>
+        <ul>
+            <li>No more than 7 slopes per axis, per side, not including 0 or 90-degree geometry</li>
+            <li>Keep it minimal, without compromising the general look of the form</li>
+            <li>No folded geometry (split the part into two triangles if it is folded)</li>
+            <li>Reduce texture stretching as much as possible, especially where lining or other visually different
+                textures
+                will be applied
+            </li>
+            <li>If streamlined cabs can not be modelled in a way that the texture of the windows is correct, modelled
+                windows are acceptable but must be made to look textured.
+            </li>
+        </ul>
+        <h4><u>3. NOT ALLOWED DETAILS</u></h4>
+        <ul>
+            <li>Detailed underframes (Litteral framework)</li>
+            <li>Gas/Water/Fuel/Sand caps unless this is bigger than 1.5mb on any axis.</li>
+            <li>Boiler piping</li>
+            <li>Full Blown detailed, Realistic cab interior</li>
+            <li>Unlike horizontal fluting, Vertical wooden structures need to be textured on instead of geometry</li>
+        </ul>
+        <h4>4. Texture Requirements</h4>
+        <ul>
+            <li> We require all visible parts on a certain skin to be textured fully and no SMP/FMT default colours</li>
+            <li>We require colours to be between V:12 and V:88</li>
+            <li>For noising skins, we use the following settings: 10-12, 0, 50</li>
+            <li>Skins are allowed to have company logos on them. But are in no way absolutely required to.</li>
+        </ul>
+    </section>
+</main>
+<footer class="allrights">
+    <section>
+        <h2 class="hiddenTitle">Copy Right</h2>
+        <p><i>WWCP is a content pack created by Sébastiaan Verheyen and contributors. All rights reserved</i></p>
+    </section>
+</footer>
+<div class="filler"></div>
+<div class="languages">
+    <div id="dropdownclass" class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Languages</button>
+        <div id="myDropdown" class="dropdown-content"></div>
+    </div>
+</div>
+<div class="discord">
+    <section id="discordtext">
+        <h3 class="hiddenTitle">Discord invite</h3>
+    </section>
+</div>
+</body>
+</html>
