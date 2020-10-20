@@ -12,12 +12,15 @@ html {
 
 body {
     display: grid;
-    grid-template: "header header header" "menu main languages" "filler main discord" "footer footer footer";
+    grid-template: "header header header" "menu main extra" "footer footer footer";
     grid-template-columns: 1.5fr 10fr 1.5fr;
     grid-template-rows: auto max-content auto auto;
     margin: 0;
 }
 
+.extra {
+    grid-area: extra;
+}
 
 main {
     grid-area: main;
@@ -82,9 +85,6 @@ main h2 {
     background-color: #393b40;
     margin: 15px;
 }
-
-
-
 
 .banner p {
     font-size: 5em;
@@ -186,7 +186,6 @@ footer {
 
 .news a.more {
     color: #EAF0CE;
-    float: right;
     display: block;
 }
 
@@ -197,6 +196,7 @@ footer {
 }
 
 .discord {
+    padding-top: 20px;
     grid-area: discord;
 }
 
