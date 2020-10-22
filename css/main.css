@@ -41,6 +41,18 @@ main.history article section figure{
     margin: auto auto;
 }
 
+main.downloads{
+    text-align: center;
+}
+
+main.downloads figure {
+    display: inline-flex;
+    height: 125px;
+    width: 125px;
+}
+
+
+
 main.history article section figure img.squarepicture{
     height: 250px;
     width: 250px;
@@ -434,6 +446,11 @@ ul.ContentListing p {
 .ContentListing li::before{
     content: "- ";
 }
+
+main.downloads figure img {
+     height: 100px;
+     width: auto;
+ }
 
 @media only screen and (max-width: 1200px) {
     body {

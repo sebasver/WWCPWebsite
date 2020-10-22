@@ -7,11 +7,14 @@ function screenshots() {
     profscreens.innerHTML = profscreens.innerHTML +
         '<section>'+
         '<figure><a href="../../media/images/screenshots/wwcp/1.png"><img src="../../media/images/screenshots/wwcp/1.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
-        '<figure><img src="../../media/images/screenshots/wwcp/2.png" alt=""></figure>' +
-        '<figure><img src="../../media/images/screenshots/wwcp/3.png" alt=""></figure>' +
-        '<figure><img src="../../media/images/screenshots/wwcp/4.png" alt=""></figure>' +
-        '<figure><img src="../../media/images/screenshots/wwcp/5.png" alt=""></figure>' +
-        '<figure><img src="../../media/images/screenshots/wwcp/6.png" alt=""><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/2.png"><img src="../../media/images/screenshots/wwcp/2.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/3.png"><img src="../../media/images/screenshots/wwcp/3.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/4.png"><img src="../../media/images/screenshots/wwcp/4.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/5.png"><img src="../../media/images/screenshots/wwcp/5.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/6.png"><img src="../../media/images/screenshots/wwcp/6.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/7.png"><img src="../../media/images/screenshots/wwcp/7.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/8.png"><img src="../../media/images/screenshots/wwcp/8.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
+        '<figure><a href="../../media/images/screenshots/wwcp/9.png"><img src="../../media/images/screenshots/wwcp/9.png" alt=""></a><figcaption>sebasver</figcaption></figure>' +
         '<style>' +
         '.prof{text-align: center}' +
         '.prof section{display:flex; flex-wrap:wrap; justify-content: center}' +
