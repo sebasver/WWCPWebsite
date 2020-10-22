@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide&display=swap');
+
+
+html {
+    /*background-color: #670067;*/
+    background-color: #2F3136;
+    font-size: 1.25em;
+    color: #D3CFCD;
+    /*F9FFDB*/
+    /*#EAF0CE*/
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template: "header header header" "menu main extra" "footer footer footer";
+    grid-template-columns: 1.5fr 10fr 1.5fr;
+    grid-template-rows: auto max-content auto auto;
+    margin: 0;
+}
+
+.extra {
+    grid-area: extra;
+}
+
+main {
+    grid-area: main;
+    padding: 0 30px 30px 30px;
+    justify-self: center;
+}
+
+table{
+    padding-top: 25px;
+    table-layout: fixed;
+    width:100%;
+    max-width: 1000px;
+    height: 100%;
+    text-align: left;
+    justify-self: center;
+}
+
+tr,th{
+    padding-bottom: 15px;
+}
+
+table th:nth-child(3), th:nth-child(4), th:nth-child(5){
+    width: 100px;
+}
+
+table tr td{
+    padding: 10px;
+    vertical-align: center;
+}
+
+main h2 {
+    font-size: 2em;
+    text-align: center;
+}
+
+div.languages {
+    grid-area: languages;
+}
+
+main h2 {
+    font-size: 2em;
+}
+
+.banner {
+    font-family: "Audiowide", serif;
+    grid-area: header;
+    text-align: center;
+    align-self: center;
+    border-radius: 50px 50px;
+    background-image: linear-gradient(#670067, #1A2666);
+    margin: 10px;
+}
+
+.banner p {
+    font-size: 5em;
+    padding: 0;
+    margin: 50px 0 50px 0;
+    color: #9E9898;
+}
+
+.banner .top {
+    margin-top: 25px;
+}
+
+.banner .bottom {
+    margin-bottom: 25px;
+}
+
+main.list section {
+    align-content: center;
+    justify-content: center;
+}
+
+.menu ul li {
+    list-style: none;
+    margin: 0;
+}
+
+.menu ul {
+    grid-area: menu;
+    display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #9E9898;
+    font-family: "Audiowide", serif;
+    padding: 15px;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    /*font-weight: bold;*/
+    font-size: 1em;
+}
+
+.menu li {
+    border-radius: 10px 10px;
+}
+
+footer {
+    grid-area: footer;
+    text-align: center
+}
+
+.discord {
+    padding-top: 20px;
+    grid-area: discord;
+}
+
+.dropbtn {
+    margin-top: 20px;
+    background-color: #393b40;
+    color: #EAF0CE;
+    padding: 15px;
+    font-family: Audiowide, serif;
+    font-size: 1.25em;
+    border: none;
+    align-self: center;
+    cursor: pointer;
+    border-radius: 10px 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #4b4d52;
+    transition-duration: 600ms;
+}
+
+.dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 150px;
+    overflow: auto;
+    margin-right: 35px;
+    right: 0;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    text-align: center;
+    font-family: "Audiowide", serif;
+    color: #9E9898;
+    padding: 10px 5px;
+    margin: 5px;
+    font-size: 1em;
+    border-radius: 10px 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
+.hiddenTitle {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+}
+
+.one {background-color: #610366;}
+.two {background-color: #590767;}
+.three {background-color: #500B66;}
+.four {background-color: #480F65;}
+.five {background-color: #3F1365;}
+.six {background-color: #371866;}
+.seven {background-color: #2E1C65;}
+.eight {background-color: #242165 ;}
