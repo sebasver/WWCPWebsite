@@ -204,3 +204,111 @@ footer {
 .six {background-color: #371866;}
 .seven {background-color: #2E1C65;}
 .eight {background-color: #242165 ;}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        display: grid;
+        grid-template: "header header" "menu extra" "main main" "footer footer";
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: 50% 50%;
+        margin: 0;
+        font-size: 1em;
+        padding: 10px;
+    }
+
+    main {
+        padding: 0;
+    }
+
+    div.languages {
+        margin: 0;
+    }
+
+    nav.menu {
+        margin: 0;
+    }
+
+    .AboutUS section.list section figure img {
+        width: 95px;
+        height: 95px;
+    }
+
+    .AboutUS section.list section figure figcaption {
+        font-size: 0.75em;
+    }
+
+    .AboutUS section.list section figure {
+        height: 125px;
+        padding: 0 0 5px 0;
+        margin: 5px;
+        width: 125px;
+    }
+
+    .AboutUS section.list section.leadArtist figure {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .AboutUS section.list section.projectleader figure {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+    }
+
+    .AboutUS article {
+        border-radius: 10px 10px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        padding: 10px;
+
+    }
+
+    .banner p {
+        font-size: 2em;
+    }
+
+    .discord {
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+
+    .dropbtn {
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 0.75em;
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .dropdown-content {
+        width: 100%;
+        overflow: auto;
+        align-content: center;
+        margin: 0;
+    }
+
+    .dropdown-content a {
+        font-size: 0.9em;
+    }
+
+    .menu a {
+        text-decoration: none;
+        color: #9E9898;
+        padding: 15px;
+        display: block;
+        align-content: center;
+        text-align: center;
+        margin: 10px;
+        font-size: 0.75em;
+    }
+}
+
+@media only screen and (max-width: 850px)  {
+    body {
+        zoom: 0.8;
+    }
+
+}

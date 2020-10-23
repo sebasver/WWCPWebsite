@@ -455,7 +455,7 @@ main.downloads figure img {
 @media only screen and (max-width: 1200px) {
     body {
         display: grid;
-        grid-template: "header header" "menu languages" "main main" "filler filler" "discord discord" "footer footer";
+        grid-template: "header header" "menu extra" "main main" "footer footer";
         grid-template-rows: auto auto auto auto;
         grid-template-columns: 50% 50%;
         margin: 0;
