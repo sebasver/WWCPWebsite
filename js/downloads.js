@@ -39,9 +39,9 @@ function init() {
         '' +
         '' +
         '<style>' +
-        '.links{text-align: center}' +
-        '.links figure{margin: 20px 10px 20px 10px}' +
-        '.links figure a{text-decoration: none; color: #EAF0CE}' +
+        '.links{text-align: center;}' +
+        '.links figure{margin: 20px 10px 20px 10px;}' +
+        '.links figure a{text-decoration: none; color: #EAF0CE;}' +
         '</style>' +
         '</section>';
 }
